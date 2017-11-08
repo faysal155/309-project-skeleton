@@ -44,9 +44,6 @@ exports.new = function(req, res){
   });
 };
 
-
-
-
 module.exports.list = function(req, res) {
   Product.find(function(err, data) {
     if (err) {

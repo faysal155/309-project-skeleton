@@ -27,7 +27,6 @@ module.exports = function(app){
 	.get(products.read)
 	.put(users.requiresLogin, products.update);
 
-
 app.param('productId', products.productByID);
 
 };

@@ -1,4 +1,5 @@
 <h1>Product List</h1>
+
 <% console.log(products) %>
   <% for(var i=0; i<products.length; i++) { %>
     <h1> <%= products[i].title %> </h1>
@@ -7,4 +8,5 @@
     </p>
     <h3><%= products[i].content%></h3>
     <h4><%= products[i].created%></h4>
+    
     <% } %>
